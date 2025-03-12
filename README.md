@@ -91,7 +91,7 @@ https://openapi.programming-hero.com/api/words/all
   - [ ] Show an alert if the password is not "123456"
   - [ ] Show a success alert, hide the Banner, and display the Navbar, Vocabulary Section, and FAQ Section when the user enters a valid name and password
 - [ ] Create functionality to hide the Navbar, Vocabulary Section, and FAQ Section and show only the Banner and Footer when clicking "Logout"
-- [ ] Create smooth scrolling for FAQ & Learn buttons
+- [X] Create smooth scrolling for FAQ & Learn buttons
 
 ### Handling Invalid Data
 - [ ] Create functionality to avoid displaying falsy values like `undefined` or `null`
