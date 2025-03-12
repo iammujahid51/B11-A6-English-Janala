@@ -110,7 +110,7 @@ https://openapi.programming-hero.com/api/words/all
 
 ## Optional: Be a Perfectionist
 
-⚠️ Their is No Mark for Optional Requirement.  You won't get any support for any of  the optional Part. But we strongly recommend you to give a try. If you completed all the requirement.
+⚠️ Their is No Mark for Optional Requirement.  You won't get any support for any of  the optional Part. But we strongly recommend you to give a try after completing all the requirement.
 
 ---
 ### Sweet Alert - https://sweetalert2.github.io/#download 
