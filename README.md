@@ -38,7 +38,7 @@ https://openapi.programming-hero.com/api/words/all
 ## Features
 
 ### Navbar
-- [ ] Create a navbar with a logo and brand name on the left
+- [X] Create a navbar with a logo and brand name on the left
 - [ ] Create three buttons with icons: FAQ, Learn, and Logout
 - [ ] Create functionality to jump to the FAQ section when clicking the FAQ button
 - [ ] Create functionality to jump to the Vocabulary section when clicking the Learn button
