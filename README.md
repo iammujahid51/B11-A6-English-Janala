@@ -124,7 +124,7 @@ Follow this [Documentation](https://sweetalert2.github.io/)
 ```js
  function pronounceWord(word) {
       const utterance = new SpeechSynthesisUtterance(word);
-      utterance.lang = 'en-EN'; // Japanese
+      utterance.lang = 'en-EN'; // English
       window.speechSynthesis.speak(utterance);
     }
 ```
