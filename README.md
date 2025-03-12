@@ -109,6 +109,29 @@ https://openapi.programming-hero.com/api/words/all
 - [ ] Create a loading spinner that will be display when vocabulary is loading from API 
 
 ## Optional: Be a Perfectionist
-- [ ] Create an integration of SweetAlert instead of normal alerts
+
+⚠️ Their is No Mark for Optional Requirement.  You won't get any support for any of  the optional Part. But we strongly recommend you to give a try. If you completed all the requirement.
+
+---
+### Sweet Alert - https://sweetalert2.github.io/#download 
+- [ ] Explore Sweet ALert Documentation  <br/>
+integrate it with your app. replace all the basic alert with a normal alert <br/>
+Follow this [Documentation](https://sweetalert2.github.io/) 
+---
+### Speak your Vocabularies
 - [ ] Create functionality for voice pronunciation of vocabulary words
-- [ ] Create and integrate a local Bengali font for Bangla words
+- [ ] Use below function and implement on clicking sound icon
+```js
+ function pronounceWord(word) {
+      const utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-EN'; // Japanese
+      window.speechSynthesis.speak(utterance);
+    }
+```
+For More >>  you can explore this implementation 👉  [https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ](https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ)
+
+---
+### Custom Font integration 
+- [ ] integrate a local Bengali font for Bangla words given in assets
+- [ ] use this font on every Bengali words
+- [ ] Search , Research , Explore  If you dont know how to do it. 
