@@ -1,5 +1,8 @@
 ### WELCOME TO ASSIGNMENT-006
 # ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
+
+## Private Repo Link : https://classroom.github.com/a/JPUEMrmw
+
  **📅 Deadline For 60 marks**: 16th March , 2025 ( 11:59 pm ⏱️)
 
 **📅 Deadline For 50 marks**: 17th March , 2025 ( 11:59 pm ⏱️)
