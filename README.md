@@ -95,7 +95,7 @@ https://openapi.programming-hero.com/api/words/all
   - [ ] Show an alert if the user does not enter a name
   - [ ] Show an alert if the password is not "123456"
 - [ ]  when the user enters a valid name and password
-  - [ ] Show a success alert,
+  - [ ] Show a  alert with a success message,
   - [ ] hide the Banner
   - [ ] display the Navbar, Vocabulary Section, and FAQ Section 
 ---
