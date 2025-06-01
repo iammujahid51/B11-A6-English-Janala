@@ -138,3 +138,4 @@ For More >>  you can explore this implementation 👉  [https://codepen.io/Ferdo
 - [ ] integrate a local Bengali font for Bangla words given in assets
 - [ ] use this font on every Bengali words
 - [ ] Search , Research , Explore  If you dont know how to do it. 
+## Update: Learning Git is fun!
