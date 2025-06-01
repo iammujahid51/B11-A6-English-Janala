@@ -11,17 +11,17 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-  <nav class="flex justify-between px-16 py-5 bg-[#C6BDBD] ">
+<body >
+  <nav id="nav" class="flex justify-between px-16 py-5 bg-[#C6BDBD] ">
     <div class="flex gap-2">
       <h3 class="text-2xl font-bold " >English</h3>
       <img class="w-5" src="./assets/logo.png" alt="">
       <h4 class="text-xl font-semibold">জানালা</h4>
     </div>
     <div class=" flex gap-5">
-     <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="w-full  h-4" src="./assets/fa-circle-question.png" alt="">FAQ</button>
+     <button id="faq" class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3 hover:bg-sky-700 hover:text-white"><img class="w-full  h-4" src="./assets/fa-circle-question.png" alt="">FAQ</button>
 
-     <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="w-full  h-4" src="./assets/fa-book-open.png" alt="">Learn</button>
+     <button id="learn" class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="w-full  h-4" src="./assets/fa-book-open.png" alt="">Learn</button>
 
      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="w-full  h-4" src="./assets/fa-arrow-right-from-bracket.png" alt="">Logout</button>
     </div>
@@ -30,7 +30,7 @@
 
 
 
- <header class="flex items-center justify-between px-16 bg-[#e3e4e9]">
+ <header id="header" class="flex items-center justify-between px-16 bg-[#e3e4e9]">
    <div class="">
     <h1 class="text-6xl font-bold text-[#00BCFF] pb-8 ">English <span class="text-black">is Easy!!</span></h1>
     <p class="text-[#18181B] text-sm pb-4 text-xl">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা <br> আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে <br>যাবে অন্য একটি Level এ</p>
@@ -47,16 +47,19 @@
 
 
 
-  <section class="bg-[#e3e4e9]">
+  <section id="Lesson-section" class="bg-[#e3e4e9] pb-40">
     <h2 class="text-4xl font-bold flex justify-center py-5 pb-10"> <span class="text-[#00BCFF]">Let's</span> Learn Vocabularies</h2>
-    <div class="flex gap-4 justify-center pb-10 bg-[]">
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -1</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -2</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -3</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -4</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -5</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -6</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -7</button>
+    <div id="lesson" class=" flex gap-4 justify-center pb-10 bg-[]">
+      <button  id="Lesson-1" class="Lesson-1 flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -1</button>
+   
+      <button id="Lesson-2" class="Lesson-2     flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -2</button>
+    
+ 
+      <button id="Lesson-3" class="Lesson-3 flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -3</button>
+      <button id="Lesson-4" class="Lesson-4 flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -4</button>
+      <button id="Lesson-5" class="Lesson-5 flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -5</button>
+      <button id="Lesson-6" class="Lesson-6 flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -6</button>
+      <button id="Lesson-7" class="Lesson-7 flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -7</button>
     
     
     
@@ -64,7 +67,7 @@
     </div>
 
 
-    <div class="mx-32 bg-base-200 rounded-2xl">
+    <div class="mx-32 bg-base-200 rounded-2xl  ">
       <p class="flex justify-center pt-10 text-sm font-medium text-[#292524] ">আপনি এখনো কোন Lesson Select করেন নি </p>
       <h3 class="flex justify-center text-3xl font-bold pt-5 pb-8">একটি Lesson Select করুন।</h3>
     </div>
@@ -80,12 +83,12 @@
 
 
 
-  <section class=" px-50 bg-[#e3e4e9] pt-30 pb-20 border-t-2 border-[#FFEBEB]">
+  <section id="Frequently" class=" px-50 bg-[#e3e4e9] pt-30 pb-20  ">
    
 <h1 class="text-4xl font-bold flex justify-center pb-10"> <span class="text-[#00BCFF]">Frequently </span>Asked Questions</h1>
 
 <div class="collapse collapse-arrow bg-base-200 border border-base-300 mb-5">
-  <input type="radio" name="my-accordion-3" />
+  <input type="radio" name="my-accordion-2" />
   <div class="collapse-title font-semibold">1. How can I start learning English on this website?</div>
   <div class="collapse-content text-sm"> A popular, free app with a fun, gamified approach to learning languages.</div>
 </div>
@@ -147,11 +150,18 @@
 
 
 
+<!-- <div class="flex justify-center gap-4">
+          <button class="bg-blue-100 p-2 rounded-full">
+            <img src="./assets/fa-circle-info.png" class="w-5 h-5" alt="info">
+          </button>
+          <button onclick="playSound('${item.audio}')" class="bg-blue-100 p-2 rounded-full">
+            <img src="./assets/fa-volume-high.png" class="w-5 h-5" alt="play">
+          </button>
+        </div> -->
 
 
 
-
-  <footer class="pb-20 bg-[#e3e4e9] ">
+  <footer id="footer" class="pb-20 bg-[#e3e4e9] ">
     <div class="border-t-4 border-[#FFEBEB] ..."></div>
     <div class="flex justify-between items-center pt-20 px-20">
 
@@ -183,122 +193,66 @@
 
 
   
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-   <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@5"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body>
-  <nav class="flex justify-between px-16 py-5 bg-[#C6BDBD] ">
-    <div class="flex gap-2">
-      <h3 class="text-2xl font-bold " >English</h3>
-      <img class="w-5" src="./assets/logo.png" alt="">
-      <h4 class="text-xl font-semibold">জানালা</h4>
-    </div>
-    <div class=" flex gap-5">
-     <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="w-full  h-4" src="./assets/fa-circle-question.png" alt="">FAQ</button>
 
-     <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="w-full  h-4" src="./assets/fa-book-open.png" alt="">Learn</button>
 
-     <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="w-full  h-4" src="./assets/fa-arrow-right-from-bracket.png" alt="">Logout</button>
-    </div>
-  </nav>
 
 
+<script>
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    const faqBtn = document.getElementById("faq");
+    const header = document.getElementById("header");
+    const lessonSection = document.getElementById("Lesson-section");
 
+    let isHidden = false;
 
- <header class="flex items-center justify-between px-16 bg-[#e3e4e9]">
-   <div class="">
-    <h1 class="text-6xl font-bold text-[#00BCFF] pb-8 ">English <span class="text-black">is Easy!!</span></h1>
-    <p class="text-[#18181B] text-sm pb-4 text-xl">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা <br> আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে <br>যাবে অন্য একটি Level এ</p>
-    <input class="mb-4 w-70 h-10 py-2 px-3 border-[#a2a2b1] rounded-sm text-xl" type="text" placeholder="Enter your name"> 
-    <br>
-    <input class=" w-70 h-10 border-[#a2a2b1] rounded-sm text-xl" type="password" name="" id="">
- <br>
-    <button class="text-white bg-[#3D26C7] py-2 px-5  font-semibold rounded-sm text-xl mt-5">Get Started</button>
-   </div>
-   <div class="pt-14">
-    <img src="./assets/hero-student.png" alt="">
-   </div>
- </header>
+    faqBtn.addEventListener("click", function () {
+      isHidden = !isHidden;
 
+      if (isHidden) {
+        header.style.display = "none";
+        lessonSection.style.display = "none";
+      } else {
+        header.style.display = "flex"; 
+        lessonSection.style.display = "block"; 
+      }
+    });
+  });
 
 
-  <section class="bg-[#e3e4e9]">
-    <h2 class="text-4xl font-bold flex justify-center py-5 pb-10"> <span class="text-[#00BCFF]">Let's</span> Learn Vocabularies</h2>
-    <div class="flex gap-4 justify-center pb-10 bg-[]">
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -1</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -2</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -3</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -4</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -5</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -6</button>
-      <button class="flex items-center tsxt-sm font-bold gap-2 border-2 rounded-sm  border-indigo-500 py-1 px-3"><img class="" src="./assets/fa-book-open.png" alt="">Lesson -7</button>
-    
-    
-    
-    
-    </div>
 
 
-    <div class="mx-32 bg-base-200 rounded-2xl">
-      <p class="flex justify-center pt-10 text-sm font-medium text-[#292524] ">আপনি এখনো কোন Lesson Select করেন নি </p>
-      <h3 class="flex justify-center text-3xl font-bold pt-5 pb-8">একটি Lesson Select করুন।</h3>
-    </div>
-  </section>
 
 
 
 
 
+    document.addEventListener("DOMContentLoaded", function () {
+    const learnBtn = document.getElementById("learn");
+    const header = document.getElementById("header");
+    const frequently = document.getElementById("Frequently");
+    const footer = document.getElementById("footer")
 
+    let isHidden = false;
 
+    learnBtn.addEventListener("click", function () {
+      isHidden = !isHidden;
 
+      // header এবং frequently কে hide/show করা হচ্ছে
+      header.style.display = isHidden ? "none" : "flex";
+      footer.style.display = isHidden ? "none" : "block";
+      frequently.style.display = isHidden ? "none" : "block";
+      
+    });
+  });
 
 
 
-  <section class=" px-50 bg-[#e3e4e9] pt-30 pb-20 border-t-2 border-[#FFEBEB]">
-   
-<h1 class="text-4xl font-bold flex justify-center pb-10"> <span class="text-[#00BCFF]">Frequently </span>Asked Questions</h1>
 
-<div class="collapse collapse-arrow bg-base-200 border border-base-300 mb-5">
-  <input type="radio" name="my-accordion-3" />
-  <div class="collapse-title font-semibold">1. How can I start learning English on this website?</div>
-  <div class="collapse-content text-sm"> A popular, free app with a fun, gamified approach to learning languages.</div>
-</div>
 
-<div class="collapse collapse-arrow bg-base-200 border border-base-300 mb-5">
-  <input type="radio" name="my-accordion-2" />
-  <div class="collapse-title font-semibold">2. Is this website free to use?</div>
-  <div class="collapse-content text-sm">Sure, I'd be happy to try a free English lesson with you! Just let me know what level you'd like to focus on (beginner, intermediate, advanced), and what kind of topic or skill you're interested in (grammar, conversation, vocabulary, writing, etc.). Let's get started!</div>
-</div>
 
-<div class="collapse collapse-arrow bg-base-200 border border-base-300 mb-5">
-  <input type="radio" name="my-accordion-2" />
-  <div class="collapse-title font-semibold">3.  Do I need to create an account?</div>
-  <div class="collapse-content text-sm">Nope, you don’t need to create an account to have a lesson with me! We can just jump right into it. Feel free to tell me what you want to focus on, and we’ll get started right away!</div>
-</div>
 
-<div class="collapse collapse-arrow bg-base-200 border border-base-300 mb-5">
-  <input type="radio" name="my-accordion-2" />
-  <div class="collapse-title font-semibold">4. How can I build my English vocabulary?</div>
-  <div class="collapse-content text-sm">Building your English vocabulary is a gradual process, but it's definitely doable with the right approach. Here are some effective strategies to help you expand your vocabulary.</div>
-</div>
 
-<div class="collapse collapse-arrow bg-base-200 border border-base-300 mb-5">
-  <input type="radio" name="my-accordion-2" />
-  <div class="collapse-title font-semibold">5. Do you offer certificates for completed courses?</div>
-  <div class="collapse-content text-sm">If you're looking for certificates, you might want to consider platforms like Coursera, Duolingo, or other online language learning sites that offer verified certificates after completing specific courses.</div>
-</div>
 
 
 
@@ -313,59 +267,330 @@
 
 
 
+  //   const button = document.getElementById('Lesson-1');
 
+  // button.addEventListener('click', async () => {
+  //   // 1. সব কিছু hide করে দাও (nav আর lesson-section বাদে)
+  //   const allElements = document.body.children;
+  //   for (let i = 0; i < allElements.length; i++) {
+  //     const el = allElements[i];
+  //     if (el.id !== 'nav' && el.id !== 'Lesson-section') {
+  //       el.style.display = 'none';
+  //     }
+  //   }
 
-  </section>
+  //   // 2. lesson-section এর ভেতর শুধু Lesson Button গুলো show করো
+  //   const lessonSection = document.getElementById('Lesson-section');
+  //   const lessonChildren = lessonSection.children;
+  //   for (let i = 0; i < lessonChildren.length; i++) {
+  //     lessonChildren[i].style.display = 'none';
+  //   }
 
+  //   const lessonButtons = document.getElementById('Lesson-1');
+  //   lessonButtons.style.display = 'flex';
 
+  //   // আগের কার্ড থাকলে মুছে ফেলো
+  //   const existing = document.getElementById('lesson-cards');
+  //   if (existing) existing.remove();
 
+  //   // 3. ডেটা আনো এবং ৯টা কার্ড দেখাও
+  //   try {
+  //     const res = await fetch('https://openapi.programming-hero.com/api/level/5');
+  //     const data = await res.json();
+
+  //     const container = document.createElement('div');
+  //     container.id = 'lesson-cards';
+  //     container.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-10 py-10';
+
+  //     data.data.slice(0, 9).forEach(item => {
+  //       const card = document.createElement('div');
+  //       card.className = 'bg-white shadow-lg rounded-xl p-6 border border-dashed border-blue-400';
+
+  //       card.innerHTML = `
+  //         <h3 class="text-xl font-bold mb-1 text-center">${item.word}</h3>
+  //         <p class="text-sm text-center font-semibold text-gray-700 mb-2">Meaning /Pronounciation</p>
+  //         <p class="text-center text-xl font-semibold mb-4">"${item.meaning}"</p>
+
+  //         <div class="flex justify-center gap-4">
+  //           <button class="bg-blue-100 p-2 rounded-full">
+  //             <img src="./assets/fa-circle-info.png" class="w-5 h-5" alt="info">
+  //           </button>
+  //           <button onclick="playSound('${item.audio}')"
+  //                   class="bg-blue-100 p-2 rounded-full">
+  //             <img src="./assets/fa-volume-high.png" class="w-5 h-5" alt="play">
+  //           </button>
+  //         </div>
+  //       `;
 
+  //       container.appendChild(card);
+  //     });
 
+  //     lessonSection.appendChild(container);
+  //     lessonSection.style.display = 'block';
 
+  //   } catch (error) {
+  //     console.error('API fetch error:', error);
+  //   }
+  // });
 
+  // function playSound(audioUrl) {
+  //   const audio = new Audio(audioUrl);
+  //   audio.play();
+  // }
 
 
 
+const button = document.getElementById('Lesson-1');
 
+button.addEventListener('click', async () => {
+  // 1. সব কিছু hide করে দাও (nav আর lesson-section বাদে)
+  const allElements = document.body.children;
+  for (let i = 0; i < allElements.length; i++) {
+    const el = allElements[i];
+    if (el.id !== 'nav' && el.id !== 'Lesson-section') {
+      el.style.display = 'none';
+    }
+  }
 
+  // 2. lesson-section এর সব কিছু hide করো
+  const lessonSection = document.getElementById('Lesson-section');
+  lessonSection.style.display = 'block';
 
+  const lessonChildren = lessonSection.children;
+  for (let i = 0; i < lessonChildren.length; i++) {
+    lessonChildren[i].style.display = 'none';
+  }
 
+  // ✅ "lesson" id ওয়ালা div (যেখানে সব Lesson button আছে) show করো
+  const lessonButtonGroup = document.getElementById('lesson');
+  lessonButtonGroup.style.display = 'flex';
 
+  // আগের কার্ড থাকলে মুছে ফেলো
+  const existing = document.getElementById('lesson-cards');
+  if (existing) existing.remove();
 
+  // 3. ডেটা আনো এবং প্রথম ৯টি কার্ড দেখাও
+  try {
+    const res = await fetch('https://openapi.programming-hero.com/api/level/5');
+    const data = await res.json();
 
+    const container = document.createElement('div');
+    container.id = 'lesson-cards';
+    container.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-10 py-10';
 
+    data.data.slice(0, 9).forEach(item => {
+      const card = document.createElement('div');
+      card.className = 'bg-white shadow-lg rounded-xl p-6 border border-dashed border-blue-400';
 
+      card.innerHTML = `
+        <h3 class="text-xl font-bold mb-1 text-center">${item.word}</h3>
+        <p class="text-sm text-center font-semibold text-gray-700 mb-2">Meaning /Pronounciation</p>
+        <p class="text-center text-xl font-semibold mb-4">"${item.meaning}"</p>
 
+        <div class="flex justify-center gap-4">
+          <button class="bg-blue-100 p-2 rounded-full">
+            <img src="./assets/fa-circle-info.png" class="w-5 h-5" alt="info">
+          </button>
+          <button onclick="playSound('${item.audio}')" class="bg-blue-100 p-2 rounded-full">
+            <img src="./assets/fa-volume-high.png" class="w-5 h-5" alt="play">
+          </button>
+        </div>
+      `;
 
-  <footer class="pb-20 bg-[#e3e4e9] ">
-    <div class="border-t-4 border-[#FFEBEB] ..."></div>
-    <div class="flex justify-between items-center pt-20 px-20">
+      container.appendChild(card);
+    });
 
-     <div class="">
-       <div class="flex gap-2">
-      <h3 class="text-2xl font-bold " >English</h3>
-      <img class="w-5" src="./assets/logo.png" alt="">
-      <h4 class="text-xl font-semibold">জানালা</h4>
-    </div>
-    <h5 class="pt-6 pb-3 text-lg font-medium">ইংরেজি শিখুন সহজে</h5>
-    <p class="text-base">Providing ED-Tech Applications since 2025</p>
-    
-     </div>
+    lessonSection.appendChild(container);
 
+  } catch (error) {
+    console.error('API fetch error:', error);
+  }
+});
 
-    <div class="pt-8">
-      <p class="text-xl pl-4 pb-3">Follow us</p>
-      <div class="flex gap-3">
-        <img src="./assets/icons8-facebook-logo-30.png" alt="">
-        <img src="./assets/icons8-youtube-30.png" alt="">
-        <img src="./assets/icons8-instagram-30.png" alt="">
-      </div>
-    </div>
-    </div>
-  </footer>
+function playSound(audioUrl) {
+  const audio = new Audio(audioUrl);
+  audio.play();
+}
 
 
 
+
+
+
+
+
+
+
+
+
+ const button_2 = document.getElementById('Lesson-2');
+
+button_2.addEventListener('click', async () => {
+  // 1. সব কিছু hide করে দাও (nav আর lesson-section বাদে)
+  const allElements = document.body.children;
+  for (let i = 0; i < allElements.length; i++) {
+    const el = allElements[i];
+    if (el.id !== 'nav' && el.id !== 'Lesson-section') {
+      el.style.display = 'none';
+    }
+  }
+
+  // 2. lesson-section দেখাও
+  const lessonSection = document.getElementById('Lesson-section');
+  lessonSection.style.display = 'block';
+
+  // lesson-section এর সব children hide করো
+  const lessonChildren = lessonSection.children;
+  for (let i = 0; i < lessonChildren.length; i++) {
+    lessonChildren[i].style.display = 'none';
+  }
+
+  // ✅ Lesson Button গুলো দেখাও (id="lesson" div)
+  const lessonButtonGroup = document.getElementById('lesson');  // এই line টা নতুন
+  lessonButtonGroup.style.display = 'flex';                     // এই line টা নতুন
+
+  // আগের কার্ড থাকলে মুছে ফেলো
+  const existing = document.getElementById('lesson-cards');
+  if (existing) existing.remove();
+
+  // 3. ডেটা আনো এবং ১০ থেকে ১৫ নম্বর কার্ড দেখাও
+  try {
+    const res = await fetch('https://openapi.programming-hero.com/api/level/5');
+    const data = await res.json();
+
+    const container = document.createElement('div');
+    container.id = 'lesson-cards';
+    container.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-10 py-10';
+
+    data.data.slice(9, 15).forEach(item => {
+      const card = document.createElement('div');
+      card.className = 'bg-white shadow-lg rounded-xl p-6 border border-dashed border-blue-400';
+
+      card.innerHTML = `
+        <h3 class="text-xl font-bold mb-1 text-center">${item.word}</h3>
+        <p class="text-sm text-center font-semibold text-gray-700 mb-2">Meaning /Pronounciation</p>
+        <p class="text-center text-xl font-semibold mb-4">"${item.meaning}"</p>
+
+        <div class="flex justify-center gap-4">
+          <button class="bg-blue-100 p-2 rounded-full">
+            <img src="./assets/fa-circle-info.png" class="w-5 h-5" alt="info">
+          </button>
+          <button onclick="playSound('${item.audio}')" class="bg-blue-100 p-2 rounded-full">
+            <img src="./assets/fa-volume-high.png" class="w-5 h-5" alt="play">
+          </button>
+        </div>
+      `;
+
+      container.appendChild(card);
+    });
+
+    lessonSection.appendChild(container);
+
+  } catch (error) {
+    console.error('API fetch error:', error);
+  }
+});
+
+function playSound(audioUrl) {
+  const audio = new Audio(audioUrl);
+  audio.play();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const button_3 = document.getElementById('Lesson-3');
+
+button_3.addEventListener('click', async () => {
+  // 1. সব কিছু hide করে দাও (nav আর lesson-section বাদে)
+  const allElements = document.body.children;
+  for (let i = 0; i < allElements.length; i++) {
+    const el = allElements[i];
+    if (el.id !== 'nav' && el.id !== 'Lesson-section') {
+      el.style.display = 'none';
+    }
+  }
+
+  // 2. lesson-section দেখাও
+  const lessonSection = document.getElementById('Lesson-section');
+  lessonSection.style.display = 'block';
+
+  // lesson-section এর সব children hide করো
+  const lessonChildren = lessonSection.children;
+  for (let i = 0; i < lessonChildren.length; i++) {
+    lessonChildren[i].style.display = 'none';
+  }
+
+  // ✅ Lesson Button গুলো দেখাও (id="lesson" div)
+  const lessonButtonGroup = document.getElementById('lesson');
+  lessonButtonGroup.style.display = 'flex';
+
+  // আগের কার্ড থাকলে মুছে ফেলো
+  const existing = document.getElementById('lesson-cards');
+  if (existing) existing.remove();
+
+  // 3. ডেটা আনো এবং ১৬ থেকে ২৪ নম্বর কার্ড দেখাও (index 15 to 23)
+  try {
+    const res = await fetch('https://openapi.programming-hero.com/api/level/5');
+    const data = await res.json();
+
+    const container = document.createElement('div');
+    container.id = 'lesson-cards';
+    container.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-10 py-10';
+
+    data.data.slice(15, 24).forEach(item => {
+      const card = document.createElement('div');
+      card.className = 'bg-white shadow-lg rounded-xl p-6 border border-dashed border-blue-400';
+
+      card.innerHTML = `
+        <h3 class="text-xl font-bold mb-1 text-center">${item.word}</h3>
+        <p class="text-sm text-center font-semibold text-gray-700 mb-2">Meaning /Pronounciation</p>
+        <p class="text-center text-xl font-semibold mb-4">"${item.meaning}"</p>
+
+        <div class="flex justify-center gap-4">
+          <button class="bg-blue-100 p-2 rounded-full">
+            <img src="./assets/fa-circle-info.png" class="w-5 h-5" alt="info">
+          </button>
+          <button onclick="playSound('${item.audio}')" class="bg-blue-100 p-2 rounded-full">
+            <img src="./assets/fa-volume-high.png" class="w-5 h-5" alt="play">
+          </button>
+        </div>
+      `;
+
+      container.appendChild(card);
+    });
+
+    lessonSection.appendChild(container);
+
+  } catch (error) {
+    console.error('API fetch error:', error);
+  }
+});
+
+function playSound(audioUrl) {
+  const audio = new Audio(audioUrl);
+  audio.play();
+}
+
+
+
+
+
+
+
+
+
+</script>
 
 
   
